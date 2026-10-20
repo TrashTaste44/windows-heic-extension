@@ -1,0 +1,24 @@
+# Native build output
+/build/
+/out/
+/CMakeUserPresets.json
+/.vs/
+*.user
+*.suo
+*.obj
+*.pdb
+*.ilk
+*.dll
+*.exe
+*.msi
+
+# Local dependencies
+/vcpkg_installed/
+
+# Private configuration and photos
+.env
+.env.*
+!.env.example
+*.heic
+*.heif
+/samples/private/
